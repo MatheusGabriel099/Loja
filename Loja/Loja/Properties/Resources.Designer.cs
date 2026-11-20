@@ -63,9 +63,59 @@ namespace Loja.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bicicleta {
+        internal static System.Drawing.Bitmap _11685326 {
             get {
-                object obj = ResourceManager.GetObject("bicicleta", resourceCulture);
+                object obj = ResourceManager.GetObject("_11685326", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bicicleta1 {
+            get {
+                object obj = ResourceManager.GetObject("Bicicleta1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Calculadora {
+            get {
+                object obj = ResourceManager.GetObject("Calculadora", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Camera_Fotografica_PNG_Transparente {
+            get {
+                object obj = ResourceManager.GetObject("Camera_Fotografica_PNG_Transparente", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Celular_PNG_Transparente {
+            get {
+                object obj = ResourceManager.GetObject("Celular_PNG_Transparente", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Churrasqueira_em_Tijolinho_Cinza_com_Chamine_e_Grelha_PNG_Transparente {
+            get {
+                object obj = ResourceManager.GetObject("Churrasqueira_em_Tijolinho_Cinza_com_Chamine_e_Grelha_PNG_Transparente", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -76,6 +126,36 @@ namespace Loja.Properties {
         internal static System.Drawing.Bitmap fundo {
             get {
                 object obj = ResourceManager.GetObject("fundo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngwing_co3 {
+            get {
+                object obj = ResourceManager.GetObject("pngwing_co3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngwing_com {
+            get {
+                object obj = ResourceManager.GetObject("pngwing_com", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngwing_com1 {
+            get {
+                object obj = ResourceManager.GetObject("pngwing_com1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

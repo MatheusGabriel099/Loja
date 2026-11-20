@@ -435,7 +435,7 @@
             this.ListPreco.ItemHeight = 20;
             this.ListPreco.Location = new System.Drawing.Point(315, 62);
             this.ListPreco.Name = "ListPreco";
-            this.ListPreco.Size = new System.Drawing.Size(115, 324);
+            this.ListPreco.Size = new System.Drawing.Size(115, 384);
             this.ListPreco.TabIndex = 5;
             // 
             // ListDescricao
@@ -444,7 +444,7 @@
             this.ListDescricao.ItemHeight = 20;
             this.ListDescricao.Location = new System.Drawing.Point(125, 62);
             this.ListDescricao.Name = "ListDescricao";
-            this.ListDescricao.Size = new System.Drawing.Size(184, 324);
+            this.ListDescricao.Size = new System.Drawing.Size(184, 384);
             this.ListDescricao.TabIndex = 4;
             // 
             // ListProdutos
@@ -453,7 +453,7 @@
             this.ListProdutos.ItemHeight = 20;
             this.ListProdutos.Location = new System.Drawing.Point(4, 62);
             this.ListProdutos.Name = "ListProdutos";
-            this.ListProdutos.Size = new System.Drawing.Size(115, 324);
+            this.ListProdutos.Size = new System.Drawing.Size(115, 384);
             this.ListProdutos.TabIndex = 3;
             // 
             // Lbl_Preco
@@ -489,7 +489,7 @@
             this.Lbl_Total.BackColor = System.Drawing.Color.MediumBlue;
             this.Lbl_Total.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Total.ForeColor = System.Drawing.Color.White;
-            this.Lbl_Total.Location = new System.Drawing.Point(780, 9);
+            this.Lbl_Total.Location = new System.Drawing.Point(792, 9);
             this.Lbl_Total.Name = "Lbl_Total";
             this.Lbl_Total.Size = new System.Drawing.Size(160, 25);
             this.Lbl_Total.TabIndex = 1;

@@ -89,5 +89,32 @@
   <ItemGroup>
     <None Include="Resources\bicicleta.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Celular_PNG_Transparente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Camera_Fotografica_PNG_Transparente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Churrasqueira_em_Tijolinho_Cinza_com_Chamine_e_Grelha_PNG_Transparente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bicicleta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calculadora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11685326.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.co3.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
