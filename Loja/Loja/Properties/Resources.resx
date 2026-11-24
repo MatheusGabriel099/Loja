@@ -118,14 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Bicicleta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bicicleta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Bicicleta2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bicicleta2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Calculadora" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Calculadora.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Camera_Fotografica_PNG_Transparente" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Camera_Fotografica_PNG_Transparente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CD_png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CD.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Celular_PNG_Transparente" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Celular_PNG_Transparente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -147,8 +150,5 @@
   </data>
   <data name="Produto" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Produto.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_11685326" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\11685326.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

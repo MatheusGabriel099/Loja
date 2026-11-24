@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.Grp_ListCompra = new System.Windows.Forms.GroupBox();
-            this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.Num_P8 = new System.Windows.Forms.NumericUpDown();
+            this.Num_P7 = new System.Windows.Forms.NumericUpDown();
+            this.Num_P6 = new System.Windows.Forms.NumericUpDown();
+            this.Num_P5 = new System.Windows.Forms.NumericUpDown();
+            this.Num_P4 = new System.Windows.Forms.NumericUpDown();
+            this.Num_P3 = new System.Windows.Forms.NumericUpDown();
+            this.Num_P2 = new System.Windows.Forms.NumericUpDown();
+            this.Num_P1 = new System.Windows.Forms.NumericUpDown();
             this.Lbl_E8 = new System.Windows.Forms.Label();
             this.Lbl_E7 = new System.Windows.Forms.Label();
             this.Lbl_E6 = new System.Windows.Forms.Label();
@@ -70,14 +70,14 @@
             this.Lbl_Total = new System.Windows.Forms.Label();
             this.Lbl_Total2 = new System.Windows.Forms.Label();
             this.Grp_ListCompra.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Num_P8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Num_P7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Num_P6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Num_P5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Num_P4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Num_P3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Num_P2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Num_P1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic6)).BeginInit();
@@ -91,14 +91,14 @@
             // Grp_ListCompra
             // 
             this.Grp_ListCompra.BackColor = System.Drawing.Color.Transparent;
-            this.Grp_ListCompra.Controls.Add(this.numericUpDown8);
-            this.Grp_ListCompra.Controls.Add(this.numericUpDown7);
-            this.Grp_ListCompra.Controls.Add(this.numericUpDown6);
-            this.Grp_ListCompra.Controls.Add(this.numericUpDown5);
-            this.Grp_ListCompra.Controls.Add(this.numericUpDown4);
-            this.Grp_ListCompra.Controls.Add(this.numericUpDown3);
-            this.Grp_ListCompra.Controls.Add(this.numericUpDown2);
-            this.Grp_ListCompra.Controls.Add(this.numericUpDown1);
+            this.Grp_ListCompra.Controls.Add(this.Num_P8);
+            this.Grp_ListCompra.Controls.Add(this.Num_P7);
+            this.Grp_ListCompra.Controls.Add(this.Num_P6);
+            this.Grp_ListCompra.Controls.Add(this.Num_P5);
+            this.Grp_ListCompra.Controls.Add(this.Num_P4);
+            this.Grp_ListCompra.Controls.Add(this.Num_P3);
+            this.Grp_ListCompra.Controls.Add(this.Num_P2);
+            this.Grp_ListCompra.Controls.Add(this.Num_P1);
             this.Grp_ListCompra.Controls.Add(this.Lbl_E8);
             this.Grp_ListCompra.Controls.Add(this.Lbl_E7);
             this.Grp_ListCompra.Controls.Add(this.Lbl_E6);
@@ -136,63 +136,69 @@
             this.Grp_ListCompra.TabIndex = 0;
             this.Grp_ListCompra.TabStop = false;
             this.Grp_ListCompra.Text = "Lista De Compra";
+            this.Grp_ListCompra.Enter += new System.EventHandler(this.Grp_ListCompra_Enter);
             // 
-            // numericUpDown8
+            // Num_P8
             // 
-            this.numericUpDown8.Location = new System.Drawing.Point(990, 270);
-            this.numericUpDown8.Name = "numericUpDown8";
-            this.numericUpDown8.Size = new System.Drawing.Size(37, 27);
-            this.numericUpDown8.TabIndex = 38;
+            this.Num_P8.Location = new System.Drawing.Point(990, 270);
+            this.Num_P8.Name = "Num_P8";
+            this.Num_P8.Size = new System.Drawing.Size(37, 27);
+            this.Num_P8.TabIndex = 38;
             // 
-            // numericUpDown7
+            // Num_P7
             // 
-            this.numericUpDown7.Location = new System.Drawing.Point(862, 270);
-            this.numericUpDown7.Name = "numericUpDown7";
-            this.numericUpDown7.Size = new System.Drawing.Size(37, 27);
-            this.numericUpDown7.TabIndex = 37;
+            this.Num_P7.Location = new System.Drawing.Point(862, 270);
+            this.Num_P7.Name = "Num_P7";
+            this.Num_P7.Size = new System.Drawing.Size(37, 27);
+            this.Num_P7.TabIndex = 37;
             // 
-            // numericUpDown6
+            // Num_P6
             // 
-            this.numericUpDown6.Location = new System.Drawing.Point(705, 269);
-            this.numericUpDown6.Name = "numericUpDown6";
-            this.numericUpDown6.Size = new System.Drawing.Size(37, 27);
-            this.numericUpDown6.TabIndex = 36;
+            this.Num_P6.Location = new System.Drawing.Point(705, 269);
+            this.Num_P6.Name = "Num_P6";
+            this.Num_P6.Size = new System.Drawing.Size(37, 27);
+            this.Num_P6.TabIndex = 36;
+            this.Num_P6.ValueChanged += new System.EventHandler(this.Num_P6_ValueChanged);
             // 
-            // numericUpDown5
+            // Num_P5
             // 
-            this.numericUpDown5.Location = new System.Drawing.Point(524, 270);
-            this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(37, 27);
-            this.numericUpDown5.TabIndex = 35;
-            this.numericUpDown5.ValueChanged += new System.EventHandler(this.numericUpDown5_ValueChanged);
+            this.Num_P5.Location = new System.Drawing.Point(524, 270);
+            this.Num_P5.Name = "Num_P5";
+            this.Num_P5.Size = new System.Drawing.Size(37, 27);
+            this.Num_P5.TabIndex = 35;
+            this.Num_P5.ValueChanged += new System.EventHandler(this.numericUpDown5_ValueChanged);
             // 
-            // numericUpDown4
+            // Num_P4
             // 
-            this.numericUpDown4.Location = new System.Drawing.Point(971, 64);
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(37, 27);
-            this.numericUpDown4.TabIndex = 34;
+            this.Num_P4.Location = new System.Drawing.Point(971, 64);
+            this.Num_P4.Name = "Num_P4";
+            this.Num_P4.Size = new System.Drawing.Size(37, 27);
+            this.Num_P4.TabIndex = 34;
+            this.Num_P4.ValueChanged += new System.EventHandler(this.Num_P4_ValueChanged);
             // 
-            // numericUpDown3
+            // Num_P3
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(852, 64);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(37, 27);
-            this.numericUpDown3.TabIndex = 33;
+            this.Num_P3.Location = new System.Drawing.Point(852, 64);
+            this.Num_P3.Name = "Num_P3";
+            this.Num_P3.Size = new System.Drawing.Size(37, 27);
+            this.Num_P3.TabIndex = 33;
+            this.Num_P3.ValueChanged += new System.EventHandler(this.Num_P3_ValueChanged);
             // 
-            // numericUpDown2
+            // Num_P2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(695, 64);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(37, 27);
-            this.numericUpDown2.TabIndex = 32;
+            this.Num_P2.Location = new System.Drawing.Point(695, 64);
+            this.Num_P2.Name = "Num_P2";
+            this.Num_P2.Size = new System.Drawing.Size(37, 27);
+            this.Num_P2.TabIndex = 32;
+            this.Num_P2.ValueChanged += new System.EventHandler(this.Num_P2_ValueChanged);
             // 
-            // numericUpDown1
+            // Num_P1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(534, 64);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(37, 27);
-            this.numericUpDown1.TabIndex = 31;
+            this.Num_P1.Location = new System.Drawing.Point(534, 64);
+            this.Num_P1.Name = "Num_P1";
+            this.Num_P1.Size = new System.Drawing.Size(37, 27);
+            this.Num_P1.TabIndex = 31;
+            this.Num_P1.ValueChanged += new System.EventHandler(this.Num_P1_ValueChanged);
             // 
             // Lbl_E8
             // 
@@ -290,6 +296,7 @@
             this.Chk_P7.TabIndex = 21;
             this.Chk_P7.Text = "Despertador";
             this.Chk_P7.UseVisualStyleBackColor = true;
+            this.Chk_P7.CheckedChanged += new System.EventHandler(this.Chk_P7_CheckedChanged);
             // 
             // Chk_P6
             // 
@@ -301,6 +308,7 @@
             this.Chk_P6.TabIndex = 20;
             this.Chk_P6.Text = "Churrasqueira";
             this.Chk_P6.UseVisualStyleBackColor = true;
+            this.Chk_P6.CheckedChanged += new System.EventHandler(this.Chk_P6_CheckedChanged);
             // 
             // Chk_P5
             // 
@@ -311,6 +319,7 @@
             this.Chk_P5.TabIndex = 19;
             this.Chk_P5.Text = "Celular";
             this.Chk_P5.UseVisualStyleBackColor = true;
+            this.Chk_P5.CheckedChanged += new System.EventHandler(this.Chk_P5_CheckedChanged);
             // 
             // Lbl_E4
             // 
@@ -397,6 +406,7 @@
             this.Chk_P4.TabIndex = 10;
             this.Chk_P4.Text = "CD";
             this.Chk_P4.UseVisualStyleBackColor = true;
+            this.Chk_P4.CheckedChanged += new System.EventHandler(this.Chk_P4_CheckedChanged);
             // 
             // Chk_P3
             // 
@@ -407,6 +417,7 @@
             this.Chk_P3.TabIndex = 9;
             this.Chk_P3.Text = "Câmera";
             this.Chk_P3.UseVisualStyleBackColor = true;
+            this.Chk_P3.CheckedChanged += new System.EventHandler(this.Chk_P3_CheckedChanged);
             // 
             // Chk_P2
             // 
@@ -418,6 +429,7 @@
             this.Chk_P2.TabIndex = 8;
             this.Chk_P2.Text = "Calculadora";
             this.Chk_P2.UseVisualStyleBackColor = true;
+            this.Chk_P2.CheckedChanged += new System.EventHandler(this.Chk_P2_CheckedChanged);
             // 
             // Chk_P1
             // 
@@ -428,32 +440,36 @@
             this.Chk_P1.TabIndex = 6;
             this.Chk_P1.Text = "Bicicleta";
             this.Chk_P1.UseVisualStyleBackColor = true;
+            this.Chk_P1.CheckedChanged += new System.EventHandler(this.Chk_P1_CheckedChanged);
             // 
             // ListPreco
             // 
+            this.ListPreco.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ListPreco.FormattingEnabled = true;
-            this.ListPreco.ItemHeight = 20;
+            this.ListPreco.ItemHeight = 15;
             this.ListPreco.Location = new System.Drawing.Point(315, 62);
             this.ListPreco.Name = "ListPreco";
-            this.ListPreco.Size = new System.Drawing.Size(115, 384);
+            this.ListPreco.Size = new System.Drawing.Size(115, 379);
             this.ListPreco.TabIndex = 5;
             // 
             // ListDescricao
             // 
+            this.ListDescricao.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ListDescricao.FormattingEnabled = true;
-            this.ListDescricao.ItemHeight = 20;
+            this.ListDescricao.ItemHeight = 15;
             this.ListDescricao.Location = new System.Drawing.Point(125, 62);
             this.ListDescricao.Name = "ListDescricao";
-            this.ListDescricao.Size = new System.Drawing.Size(184, 384);
+            this.ListDescricao.Size = new System.Drawing.Size(184, 379);
             this.ListDescricao.TabIndex = 4;
             // 
             // ListProdutos
             // 
+            this.ListProdutos.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ListProdutos.FormattingEnabled = true;
-            this.ListProdutos.ItemHeight = 20;
+            this.ListProdutos.ItemHeight = 15;
             this.ListProdutos.Location = new System.Drawing.Point(4, 62);
             this.ListProdutos.Name = "ListProdutos";
-            this.ListProdutos.Size = new System.Drawing.Size(115, 384);
+            this.ListProdutos.Size = new System.Drawing.Size(115, 379);
             this.ListProdutos.TabIndex = 3;
             // 
             // Lbl_Preco
@@ -519,16 +535,17 @@
             this.Controls.Add(this.Grp_ListCompra);
             this.Name = "Frm_Loja";
             this.Text = "Loja";
+            this.Load += new System.EventHandler(this.Frm_Loja_Load);
             this.Grp_ListCompra.ResumeLayout(false);
             this.Grp_ListCompra.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Num_P8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Num_P7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Num_P6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Num_P5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Num_P4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Num_P3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Num_P2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Num_P1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Pic6)).EndInit();
@@ -575,14 +592,14 @@
         private System.Windows.Forms.Label Lbl_E7;
         private System.Windows.Forms.Label Lbl_E6;
         private System.Windows.Forms.Label Lbl_E5;
-        private System.Windows.Forms.NumericUpDown numericUpDown8;
-        private System.Windows.Forms.NumericUpDown numericUpDown7;
-        private System.Windows.Forms.NumericUpDown numericUpDown6;
-        private System.Windows.Forms.NumericUpDown numericUpDown5;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown Num_P8;
+        private System.Windows.Forms.NumericUpDown Num_P7;
+        private System.Windows.Forms.NumericUpDown Num_P6;
+        private System.Windows.Forms.NumericUpDown Num_P5;
+        private System.Windows.Forms.NumericUpDown Num_P4;
+        private System.Windows.Forms.NumericUpDown Num_P3;
+        private System.Windows.Forms.NumericUpDown Num_P2;
+        private System.Windows.Forms.NumericUpDown Num_P1;
         private System.Windows.Forms.Label Lbl_Total;
         private System.Windows.Forms.Label Lbl_Total2;
     }

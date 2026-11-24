@@ -63,19 +63,9 @@ namespace Loja.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _11685326 {
+        internal static System.Drawing.Bitmap Bicicleta2 {
             get {
-                object obj = ResourceManager.GetObject("_11685326", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Bicicleta1 {
-            get {
-                object obj = ResourceManager.GetObject("Bicicleta1", resourceCulture);
+                object obj = ResourceManager.GetObject("Bicicleta2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -96,6 +86,16 @@ namespace Loja.Properties {
         internal static System.Drawing.Bitmap Camera_Fotografica_PNG_Transparente {
             get {
                 object obj = ResourceManager.GetObject("Camera_Fotografica_PNG_Transparente", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CD_png {
+            get {
+                object obj = ResourceManager.GetObject("CD_png", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
