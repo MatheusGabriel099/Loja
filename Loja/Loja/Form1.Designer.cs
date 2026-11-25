@@ -144,6 +144,7 @@
             this.Num_P8.Name = "Num_P8";
             this.Num_P8.Size = new System.Drawing.Size(37, 27);
             this.Num_P8.TabIndex = 38;
+            this.Num_P8.ValueChanged += new System.EventHandler(this.Num_P8_ValueChanged);
             // 
             // Num_P7
             // 
@@ -151,6 +152,7 @@
             this.Num_P7.Name = "Num_P7";
             this.Num_P7.Size = new System.Drawing.Size(37, 27);
             this.Num_P7.TabIndex = 37;
+            this.Num_P7.ValueChanged += new System.EventHandler(this.Num_P7_ValueChanged);
             // 
             // Num_P6
             // 
@@ -238,41 +240,45 @@
             // 
             // Pic8
             // 
-            this.Pic8.BackgroundImage = global::Loja.Properties.Resources.Produto;
-            this.Pic8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Pic8.BackgroundImage = global::Loja.Properties.Resources.carrinho;
+            this.Pic8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.Pic8.Location = new System.Drawing.Point(916, 309);
             this.Pic8.Name = "Pic8";
             this.Pic8.Size = new System.Drawing.Size(100, 90);
+            this.Pic8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pic8.TabIndex = 26;
             this.Pic8.TabStop = false;
             // 
             // Pic7
             // 
-            this.Pic7.BackgroundImage = global::Loja.Properties.Resources.Produto;
-            this.Pic7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Pic7.BackgroundImage = global::Loja.Properties.Resources.carrinho;
+            this.Pic7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.Pic7.Location = new System.Drawing.Point(762, 309);
             this.Pic7.Name = "Pic7";
             this.Pic7.Size = new System.Drawing.Size(100, 90);
+            this.Pic7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pic7.TabIndex = 25;
             this.Pic7.TabStop = false;
             // 
             // Pic6
             // 
-            this.Pic6.BackgroundImage = global::Loja.Properties.Resources.Produto;
-            this.Pic6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Pic6.BackgroundImage = global::Loja.Properties.Resources.carrinho;
+            this.Pic6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.Pic6.Location = new System.Drawing.Point(599, 309);
             this.Pic6.Name = "Pic6";
             this.Pic6.Size = new System.Drawing.Size(100, 90);
+            this.Pic6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pic6.TabIndex = 24;
             this.Pic6.TabStop = false;
             // 
             // Pic5
             // 
-            this.Pic5.BackgroundImage = global::Loja.Properties.Resources.Produto;
-            this.Pic5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Pic5.BackgroundImage = global::Loja.Properties.Resources.carrinho;
+            this.Pic5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.Pic5.Location = new System.Drawing.Point(451, 309);
             this.Pic5.Name = "Pic5";
             this.Pic5.Size = new System.Drawing.Size(100, 90);
+            this.Pic5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pic5.TabIndex = 23;
             this.Pic5.TabStop = false;
             // 
@@ -285,6 +291,7 @@
             this.Chk_P8.TabIndex = 22;
             this.Chk_P8.Text = "Micro";
             this.Chk_P8.UseVisualStyleBackColor = true;
+            this.Chk_P8.CheckedChanged += new System.EventHandler(this.Chk_P8_CheckedChanged);
             // 
             // Chk_P7
             // 
@@ -359,41 +366,45 @@
             // 
             // Pic4
             // 
-            this.Pic4.BackgroundImage = global::Loja.Properties.Resources.Produto;
-            this.Pic4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Pic4.BackgroundImage = global::Loja.Properties.Resources.carrinho;
+            this.Pic4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.Pic4.Location = new System.Drawing.Point(916, 110);
             this.Pic4.Name = "Pic4";
             this.Pic4.Size = new System.Drawing.Size(100, 90);
+            this.Pic4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pic4.TabIndex = 14;
             this.Pic4.TabStop = false;
             // 
             // Pic3
             // 
-            this.Pic3.BackgroundImage = global::Loja.Properties.Resources.Produto;
-            this.Pic3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Pic3.BackgroundImage = global::Loja.Properties.Resources.carrinho;
+            this.Pic3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.Pic3.Location = new System.Drawing.Point(765, 110);
             this.Pic3.Name = "Pic3";
             this.Pic3.Size = new System.Drawing.Size(100, 90);
+            this.Pic3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pic3.TabIndex = 13;
             this.Pic3.TabStop = false;
             // 
             // Pic2
             // 
-            this.Pic2.BackgroundImage = global::Loja.Properties.Resources.Produto;
-            this.Pic2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Pic2.BackgroundImage = global::Loja.Properties.Resources.carrinho;
+            this.Pic2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.Pic2.Location = new System.Drawing.Point(599, 110);
             this.Pic2.Name = "Pic2";
             this.Pic2.Size = new System.Drawing.Size(100, 90);
+            this.Pic2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pic2.TabIndex = 12;
             this.Pic2.TabStop = false;
             // 
             // Pic1
             // 
-            this.Pic1.BackgroundImage = global::Loja.Properties.Resources.Produto;
-            this.Pic1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Pic1.BackgroundImage = global::Loja.Properties.Resources.carrinho;
+            this.Pic1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.Pic1.Location = new System.Drawing.Point(451, 110);
             this.Pic1.Name = "Pic1";
             this.Pic1.Size = new System.Drawing.Size(100, 90);
+            this.Pic1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Pic1.TabIndex = 11;
             this.Pic1.TabStop = false;
             // 
@@ -445,6 +456,7 @@
             // ListPreco
             // 
             this.ListPreco.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ListPreco.FormatString = "C2";
             this.ListPreco.FormattingEnabled = true;
             this.ListPreco.ItemHeight = 15;
             this.ListPreco.Location = new System.Drawing.Point(315, 62);
@@ -505,11 +517,12 @@
             this.Lbl_Total.BackColor = System.Drawing.Color.MediumBlue;
             this.Lbl_Total.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Total.ForeColor = System.Drawing.Color.White;
-            this.Lbl_Total.Location = new System.Drawing.Point(792, 9);
+            this.Lbl_Total.Location = new System.Drawing.Point(780, 9);
             this.Lbl_Total.Name = "Lbl_Total";
             this.Lbl_Total.Size = new System.Drawing.Size(160, 25);
             this.Lbl_Total.TabIndex = 1;
             this.Lbl_Total.Text = "Total Da Compra";
+            this.Lbl_Total.Click += new System.EventHandler(this.Lbl_Total_Click);
             // 
             // Lbl_Total2
             // 
@@ -522,6 +535,7 @@
             this.Lbl_Total2.TabIndex = 2;
             this.Lbl_Total2.Text = "                       ";
             this.Lbl_Total2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Lbl_Total2.Click += new System.EventHandler(this.Lbl_Total2_Click);
             // 
             // Frm_Loja
             // 

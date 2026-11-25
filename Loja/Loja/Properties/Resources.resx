@@ -127,11 +127,17 @@
   <data name="Camera_Fotografica_PNG_Transparente" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Camera_Fotografica_PNG_Transparente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="carrinho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carrinho.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="CD_png" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CD.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Celular_PNG_Transparente" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Celular_PNG_Transparente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="churrasqueira2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\churrasqueira2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Churrasqueira_em_Tijolinho_Cinza_com_Chamine_e_Grelha_PNG_Transparente" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Churrasqueira_em_Tijolinho_Cinza_com_Chamine_e_Grelha_PNG_Transparente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

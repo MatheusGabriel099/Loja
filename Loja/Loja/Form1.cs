@@ -13,6 +13,25 @@ namespace Loja
     public partial class Frm_Loja : Form
     {
         double bicicleta, calculadora, camera, cd, celular, churrasqueira, despertador, micro;
+        int e1, e2, e3, e4, e5, e6, e7, e8;
+        double q1, q2, q3, q4, q5, q6, q7, q8;
+
+        private void Lbl_Total_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Num_P8_ValueChanged(object sender, EventArgs e)
+        {
+            q8 = (double)Num_P8.Value;
+            Lbl_E8.Text = "Dísponivel: " + (e8 - q8);
+            total();
+        }
+
+        private void Lbl_Total2_Click(object sender, EventArgs e)
+        {
+
+        }
 
         private void Num_P1_ValueChanged(object sender, EventArgs e)
         {
@@ -39,7 +58,7 @@ namespace Loja
             else
             {
                 Chk_P2.Text = "Calculadora";
-                Pic2.Image = Properties.Resources.Produto;
+                Pic2.Image = Properties.Resources.carrinho;
                 ListProdutos.Items.Remove("Calculadora");
                 ListDescricao.Items.Remove("Comercial Eletrônica 12 Dígitos");
                 ListPreco.Items.Remove(calculadora);
@@ -74,7 +93,7 @@ namespace Loja
             else
             {
                 Chk_P3.Text = ("Câmera");
-                Pic3.Image = Properties.Resources.Produto;
+                Pic3.Image = Properties.Resources.carrinho;
                 ListProdutos.Items.Remove("Câmera");
                 ListDescricao.Items.Remove("Nikon Compacta");
                 ListPreco.Items.Remove(camera);
@@ -92,7 +111,7 @@ namespace Loja
 
         private void Chk_P4_CheckedChanged(object sender, EventArgs e)
         {
-            cd = 5.00;
+            cd = 5;
             e4 = 65;
 
             if (Chk_P4.Checked ==true)
@@ -108,7 +127,7 @@ namespace Loja
             else
             {
                 Chk_P4.Text = "CD";
-                Pic4.Image = Properties.Resources.Produto;
+                Pic4.Image = Properties.Resources.carrinho;
                 ListProdutos.Items.Remove("CD");
                 ListDescricao.Items.Remove("MaxPrint 700MB");
                 ListPreco.Items.Remove(cd);
@@ -127,7 +146,7 @@ namespace Loja
 
         private void Chk_P5_CheckedChanged(object sender, EventArgs e)
         {
-            celular = 2500.00;
+            celular = 2500;
             e5 = 15;
 
             if (Chk_P5.Checked ==true)
@@ -143,7 +162,7 @@ namespace Loja
             else
             {
                 Chk_P5.Text = "Celular";
-                Pic5.Image = Properties.Resources.Produto;
+                Pic5.Image = Properties.Resources.carrinho;
                 ListProdutos.Items.Remove("Celular");
                 ListDescricao.Items.Remove("64GB - iOS - Impressão Digital");
                 ListPreco.Items.Remove(celular);
@@ -154,7 +173,7 @@ namespace Loja
 
         private void Chk_P6_CheckedChanged(object sender, EventArgs e)
         {
-            churrasqueira = 160.00;
+            churrasqueira = 160;
             e6 = 8;
 
             if (Chk_P6.Checked ==true)
@@ -170,10 +189,10 @@ namespace Loja
             else
             {
                 Chk_P6.Text = "Churrasqueira";
-                Pic6.Image = Properties.Resources.Produto;
+                Pic6.Image = Properties.Resources.carrinho;
                 ListProdutos.Items.Remove("Churrasqueira");
                 ListDescricao.Items.Remove("Portátil");
-                ListPreco.Items.remobe(churrasqueira);
+                ListPreco.Items.Remove(churrasqueira);
                 Num_P6.Visible = false;
                 Num_P6.Maximum = 0;
 
@@ -182,8 +201,8 @@ namespace Loja
 
         private void Num_P6_ValueChanged(object sender, EventArgs e)
         {
-            q5 = (double)Num_P5.Value;
-            Lbl_E5.Text = "Dísponivel: " + (e5 - q5);
+            q6 = (double)Num_P6.Value;
+            Lbl_E6.Text = "Disponível: " + (e6 - q6);
             total();
         }
 
@@ -194,19 +213,65 @@ namespace Loja
 
         private void Chk_P7_CheckedChanged(object sender, EventArgs e)
         {
-            despertador = 50.00;
+            despertador = 50;
             e7 = 10;
 
-            if (Chk_P7.Checked ==true)
+            if (Chk_P7.Checked == true)
             {
                 Chk_P7.Text = "Despertador";
                 Pic7.Image = Properties.Resources.pngwing_com;
-
+                ListProdutos.Items.Add("Despertador");
+                ListDescricao.Items.Add("Relógio de Mesa");
+                ListPreco.Items.Add(despertador);
+                Num_P7.Visible = true;
+                Num_P7.Maximum = e7;
+            }
+            else
+            {
+                Chk_P7.Text = "Despertador";
+                Pic7.Image = Properties.Resources.carrinho;
+                ListProdutos.Items.Remove("Despertador");
+                ListDescricao.Items.Remove("Relógio de Mesa");
+                ListPreco.Items.Remove(despertador);
+                Num_P7.Visible = false;
+                Num_P7.Maximum = 0;
             }
         }
 
-        int e1, e2, e3, e4, e5, e6, e7, e8;
-        double q1, q2, q3, q4, q5, q6, q7, q8;
+        private void Num_P7_ValueChanged(object sender, EventArgs e)
+        {
+            q7 = (double)Num_P7.Value;
+            Lbl_E7.Text = "Dísponivel: " + (e7 - q7);
+            total();
+        }
+
+        private void Chk_P8_CheckedChanged(object sender, EventArgs e)
+        {
+            micro = 2000;
+            e8 = 6;
+
+            if (Chk_P8.Checked == true)
+            {
+                Chk_P8.Text = "Micro";
+                Pic8.Image = Properties.Resources.pngwing_co3;
+                ListProdutos.Items.Add("Micro Computador");
+                ListDescricao.Items.Add("i5 - RAM:8GB - HD:500GB");
+                ListPreco.Items.Add(micro);
+                Num_P8.Visible = true;
+                Num_P8.Maximum = e8;
+            }
+            else
+            {
+                Chk_P8.Text = "Micro";
+                Pic8.Image = Properties.Resources.carrinho;
+                ListProdutos.Items.Remove("Micro Computador");
+                ListDescricao.Items.Remove("i5 - RAM:8GB - HD:500GB");
+                ListPreco.Items.Remove(micro);
+                Num_P8.Visible = false;
+                Num_P8.Maximum = 0;
+
+            }
+        }
 
         public Frm_Loja()
         {
@@ -215,7 +280,12 @@ namespace Loja
 
         private void total()
         {
-            Lbl_Total2.Text = ((bicicleta * q1) + (calculadora * q2) + (camera * q3) + (cd * q4) + (celular + q5) + (churrasqueira * q6) + (despertador * q7) + (micro * q8).ToString("c2"));
+            double valorTotal = (bicicleta * q1) + (calculadora * q2) + (camera * q3) +
+                        (cd * q4) + (celular * q5) + (churrasqueira * q6) +
+                        (despertador * q7) + (micro * q8);
+
+
+            Lbl_Total2.Text = valorTotal.ToString("C");
         }
 
         private void numericUpDown5_ValueChanged(object sender, EventArgs e)
@@ -248,7 +318,7 @@ namespace Loja
             else
             {
                 Chk_P1.Text = "Bicicleta";
-                Pic1.Image = Properties.Resources.Produto;
+                Pic1.Image = Properties.Resources.carrinho;
                 ListProdutos.Items.Remove("Bicicleta");
                 ListDescricao.Items.Remove("Aro 26 Caloi");
                 ListPreco.Items.Remove(bicicleta);

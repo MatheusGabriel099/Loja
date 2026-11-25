@@ -93,6 +93,16 @@ namespace Loja.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap carrinho {
+            get {
+                object obj = ResourceManager.GetObject("carrinho", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CD_png {
             get {
                 object obj = ResourceManager.GetObject("CD_png", resourceCulture);
@@ -116,6 +126,16 @@ namespace Loja.Properties {
         internal static System.Drawing.Bitmap Churrasqueira_em_Tijolinho_Cinza_com_Chamine_e_Grelha_PNG_Transparente {
             get {
                 object obj = ResourceManager.GetObject("Churrasqueira_em_Tijolinho_Cinza_com_Chamine_e_Grelha_PNG_Transparente", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap churrasqueira2 {
+            get {
+                object obj = ResourceManager.GetObject("churrasqueira2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
