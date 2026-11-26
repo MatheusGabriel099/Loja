@@ -548,6 +548,7 @@
             this.Controls.Add(this.Lbl_Total);
             this.Controls.Add(this.Grp_ListCompra);
             this.Name = "Frm_Loja";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Loja";
             this.Load += new System.EventHandler(this.Frm_Loja_Load);
             this.Grp_ListCompra.ResumeLayout(false);
